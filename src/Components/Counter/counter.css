@@ -1,0 +1,32 @@
+.Tuser h4{
+    color: white;
+}
+
+.butin{
+    width: 300px;
+    height: 2.5rem;
+    background-color: rgba(98, 104, 128, 1);
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
+
+.span h2{
+    font-size: 30px;
+    margin:0px;
+}
+
+.fill{
+    overflow: hidden;
+    position: absolute;
+    transition: .75s ease-in-out;
+}
+
+.fill2{
+    width: 1445px;
+}
+
+.border{
+    position: relative;
+}

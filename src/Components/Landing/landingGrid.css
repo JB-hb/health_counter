@@ -1,0 +1,48 @@
+.container{
+    margin-top: -60px;
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: repeat(4,0.8fr) 80px;
+    grid-template-areas: "title title"
+                         "chr hrt"
+                         "hlt hrt"
+                         "opt hrt"
+                         "str str";
+}
+#wel{
+    grid-area: title;
+}
+
+.heart{
+    grid-area: hrt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.who{
+    grid-area: chr;
+    margin-left: 50px;
+    margin-right: 58.5px;
+}
+.max{
+    grid-area: hlt;
+    margin-left: 50px;
+    margin-right: 58.5px;
+}
+.type{
+    grid-area: opt;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.str{
+    margin-top: 10px;
+    grid-area: str;
+}
+.type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

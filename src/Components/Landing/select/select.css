@@ -1,0 +1,64 @@
+.con{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(98, 104, 128, 1);
+    border-radius: 10px;
+}
+
+.con:after{
+    position: absolute;
+    content: "";
+    background-color: rgb(56, 63, 90);
+    height: 100%;
+    width: 3.5px;
+    left: 50%;
+}
+
+#bar{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#hrt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hb{
+    width:200px;
+}
+
+.ht{
+    width: 200px;
+    height: 150px;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#CheckBar:checked + label{
+    background-color: rgba(150, 158, 189, 1);
+    border-radius: 10px 0px 0px 10px;
+}
+
+#CheckHeart:checked + label{
+    background-color: rgba(150, 158, 189, 1);
+    border-radius: 0px 10px 10px 0px;
+}

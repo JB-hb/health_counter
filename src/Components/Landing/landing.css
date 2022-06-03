@@ -1,0 +1,73 @@
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+#wel{
+    text-align: center;
+}
+
+h2{
+    font-size: 35px;
+    color: white;
+}
+.str{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+input[type=text], input[type=number]{
+    width: 100%;
+    border: none;
+    height: 2.5rem;
+    background-color: rgba(98, 104, 128, 1);
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(221, 221, 221);
+}
+
+input[type=text]:focus, input[type=number]:focus{
+    color: rgb(53, 53, 53);
+    background-color: rgba(142, 149, 174, 1);
+}
+
+#start{
+    height: 50px;
+    width: 90%;
+    background-color: rgb(43, 47, 62);
+    font-size: 20px;
+    border: none;
+    color: white;
+    animation: start 800ms infinite;
+    padding-top: 40px;
+}
+
+@keyframes start{
+    0%{color: rgba(255, 255, 255, 0)}
+    100%{color: white;}
+}
+
+.heart{
+    position: relative;
+}
+
+.heart img{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation: boing 2s infinite ease-in-out;
+
+}
+
+@keyframes boing{
+    0%{top: 20px;}
+    50%{top: -20px;}
+    100%{top: 20px}
+}
