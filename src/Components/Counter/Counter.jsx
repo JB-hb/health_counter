@@ -26,7 +26,7 @@ function Counter(){
                         {health} / {maxHealth}
                     </h4>
                 </span>
-                <span className='span'>
+                <div className='span'>
                     {opt === true && 
                         <div className='br'>
                             {dat.map( data => <Heart min={data.min} max={data.maxi} count={data.cuart}/>)}
@@ -37,7 +37,7 @@ function Counter(){
                             <Healthbar/>
                         </div>
                     }
-                </span>
+                </div>
                 <span className='span'>
                     <h2>
                         Damage

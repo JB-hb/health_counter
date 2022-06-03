@@ -23,15 +23,10 @@ export default function Healthbar(){
 
 
     return(
-        <div>
-            <span>
-                <div style={style} className='fill'>
-                    <img src={pixelfill}  className="fill2" alt="" />
-                </div>
-                <div>
-                    <img src={pixelbor} alt="" className="border"/>
-                </div>
-            </span>
+        <div className="contbar">
+            <div style={style} className="fill">
+            </div>
+            <img src={pixelbor} alt="" className="border"/>
         </div>
     )
 
